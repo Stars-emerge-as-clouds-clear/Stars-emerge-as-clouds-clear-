@@ -22,6 +22,10 @@
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.02);
         }
         h1 {
             text-align: center;
@@ -40,12 +44,21 @@
             border-radius: 5px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 更深的阴影 */
             border: 2px solid #00bcd4; /* 蓝色边框 */
+            transition: transform 0.3s ease-in-out;
+        }
+        .file-list:hover {
+            transform: scale(1.02);
         }
         .file-item {
             display: flex;
             justify-content: space-between;
+            align-items: center; /* 垂直对齐 */
             padding: 10px;
             border-bottom: 2px solid #b2ebf2; /* 更粗的分隔线 */
+            transition: background-color 0.3s ease-in-out;
+        }
+        .file-item:hover {
+            background-color: #d7f1ff;
         }
         .file-item:last-child {
             border-bottom: none;
@@ -53,14 +66,12 @@
         .file-name {
             font-weight: bold;
             color: #00796b; /* 绿色字体 */
+            flex: 1; /* 占据剩余空间 */
         }
-        .file-date {
+        .file-date, .file-md5 {
             margin-left: 20px;
-        }
-        .file-md5 {
-            font-size: 14px;
-            color: #333;
-            margin-left: 20px;
+            flex: 1; /* 占据剩余空间 */
+            text-align: center; /* 水平居中对齐 */
         }
         .download-link {
             color: #ff5722; /* 橙色字体 */
@@ -96,6 +107,15 @@
             color: #999;
             font-size: 12px;
         }
+        .deleted {
+            color: #d32f2f; /* 红色字体 */
+            text-decoration: line-through;
+        }
+        .deleted::after {
+            content: "（已下架）";
+            color: #d32f2f; /* 红色字体 */
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -114,7 +134,7 @@
                 <a href="/xcueusfhf.exe" class="download-link">下载</a>
             </div>
             <div class="file-item">
-                <span class="file-name">极域反控.exe(配合IP扫描器使用)</span>
+                <span class="file-name"><span class="deleted">极域反控.exe(配合IP扫描器使用)</span></span>
                 <span class="file-date">2025-01-17 00:00:00</span>
                 <span class="file-md5">MD5值：671537f97b70147de33e8c04c8a07576</span>
                 <a href="/极域反控.html" class="download-link">下载</a>
