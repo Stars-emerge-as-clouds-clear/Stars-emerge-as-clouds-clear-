@@ -1,3 +1,3 @@
 txt:本程序由易语言编写,有兴趣可以加粉丝群讨论|
-download:https://download.pjdzjs.us.kg/*^
+download:https://download.pjdzjs.us.kg/#^
 version:1.9'
