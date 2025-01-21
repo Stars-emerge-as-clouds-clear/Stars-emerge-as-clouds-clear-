@@ -14,6 +14,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            cursor: url('https://download.pjdzjs.us.kg/arrow.png'), auto; /* 全局鼠标图标 */
         }
         .container {
             width: 80%;
@@ -77,6 +78,7 @@
             color: #ff5722; 
             text-decoration: none;
             transition: color 0.3s;
+            cursor: url('https://download.pjdzjs.us.kg/link.png'), pointer; /* 按钮悬停时的鼠标图标 */
         }
         .download-link:hover {
             color: #e64a19;
@@ -97,6 +99,7 @@
             border-radius: 5px;
             margin-top: 30px;
             transition: background-color 0.3s;
+            cursor: pointer; /* 按钮悬停时的鼠标图标 */
         }
         .back-to-home:hover {
             background-color: #5a6268;
@@ -115,6 +118,9 @@
             content: "（已下架）";
             color: #d32f2f;
             text-decoration: none;
+        }
+        ::selection {
+            cursor: url('https://download.pjdzjs.us.kg/beam.png'), text; /* 选择文本时的鼠标图标 */
         }
     </style>
 </head>
