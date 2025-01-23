@@ -1,1 +1,4 @@
-txt:本程序由易语言编写,有兴趣可以加粉丝群讨论|
+txt:修复无法最小化极域,恢复对小助手9.99的支持|
+download:https://download.pjdzjs.us.kg/ishfuien.exe^
+version:1.7'
+
