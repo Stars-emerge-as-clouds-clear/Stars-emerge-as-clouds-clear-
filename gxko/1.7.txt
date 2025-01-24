@@ -1,4 +1,4 @@
-txt:修复了字体显示,使程序可以悬浮在小助手上|
-download:https://download.pjdzjs.us.kg/sfdoif9ciosOdg.exe^
-version:1.8'
+txt:更新:1.更新循环检测小助手逻辑 2.优化代码|
+download:https://download.pjdzjs.us.kg/ufHd6soaif.exe^
+version:1.9'
 
