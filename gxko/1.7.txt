@@ -1,4 +1,4 @@
-txt:修复无法最小化极域,恢复对小助手9.99的支持|
-download:https://download.pjdzjs.us.kg/ishfuien.exe^
-version:1.7'
+txt:修复了字体显示,使程序可以悬浮在小助手上|
+download:https://download.pjdzjs.us.kg/sfdoif9ciosOdg.exe^
+version:1.8'
 
