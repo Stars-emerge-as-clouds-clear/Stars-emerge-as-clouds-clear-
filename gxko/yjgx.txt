@@ -1,4 +1,4 @@
-txt:更新了更新逻辑|
+txt:修复了对伽卡他卡的支持|
 download:https://download.pjdzjs.us.kg/sediOskdef-2.1.exe^
 version:2.1'
 
