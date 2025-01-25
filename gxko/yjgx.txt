@@ -1,3 +1,4 @@
-txt:更新太仓促了,吃个饭再回来写日志|
-download:https://download.pjdzjs.us.kg/dsh8ghJHvg.exe#^
+txt:更新了更新逻辑|
+download:https://download.pjdzjs.us.kg/dsh8ghJHvg.exe^
 version:2.0'
+
