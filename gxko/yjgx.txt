@@ -1,4 +1,4 @@
-txt:恶补了一下红蜘蛛,被动可解老师投屏,有小概率解黑屏,增加了抗调试功能|
+txt:恶补了一下红蜘蛛,被动可解老师投屏,有小概率解黑屏,增加了抗调试功能,感谢风逍遥的赞助|
 download:https://download.pjdzjs.us.kg/download.html^
 version:2.2'
 
