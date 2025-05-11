@@ -1,4 +1,4 @@
-txt:恶补了一下红蜘蛛,被动可解老师投屏,有小概率解黑屏,增加了抗调试功能,感谢风逍遥的赞助|
-download:https://download.pjdzjs.us.kg/download.html^
+txt:修了点bug,采取了压缩技术,把程序体积控制在了4mb以内(由于域名变更,之前的更新渠道已无法使用,请前往官网下载),感谢风逍遥的赞助|
+download:https://xz.云散皆星河.cn/download.html^
 version:2.2'
 
